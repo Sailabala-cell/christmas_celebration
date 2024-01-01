@@ -1,5 +1,5 @@
 import './globals.css'
-import { ThemeProvider } from './components/themes-provider'
+import { ThemeProvider } from './components/ThemesProvider'
 
 
 

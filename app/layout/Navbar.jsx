@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 import { useTheme } from "next-themes";
 import {BiMoon} from 'react-icons/bi';
 import {FiSun} from 'react-icons/fi';
-import { ThemeProvider } from "../components/Themes-provider";
+import { ThemeProvider } from "../components/ThemesProvider";
 import {Logo, Navlight} from "../../public/images/index"
 import { IoClose } from "react-icons/io5";
 import { BsGrid } from "react-icons/bs";
