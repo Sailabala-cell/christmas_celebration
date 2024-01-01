@@ -7,7 +7,10 @@ import Navlight from "./Header/nav-light.png"
 import Givingone from "./Giving/giving1.png"
 import Givingtwo from "./Giving/giving2.png";
 import Givingthree from "./Giving/giving3.png";
-
+import footergreenbulb from "./Footer/footer1.png" 
+import footerredbulb from "./Footer/footer2.png"
+import company1 from "./Footer/aviable1.png"
+import company2 from "./Footer/aviable2.png"
 import Giftone from "./Gift/gift1.png"
 import Gifttwo from "./Gift/gift2.png";
 import Giftthree from "./Gift/gift3.png";
@@ -24,26 +27,27 @@ import New3 from "./NewArrivals/new3.png";
 import New4 from "./NewArrivals/new4.png";
 
 export {
- HeroImage,
-
- Favicon ,
- Navlight ,
-
- Givingone,
- Givingtwo ,
- Givingthree ,
-
- Giftone,
- Gifttwo ,
- Giftthree ,
- Giftfour,
- Giftfive ,
- Celebrate ,
-
- Message ,
-
- New1 ,
- New2 ,
- New3 ,
- New4 
+  HeroImage,
+  Favicon,
+ 
+  Givingone,
+  Givingtwo,
+  Givingthree,
+  Giftone,
+  Gifttwo,
+  Giftthree,
+  Giftfour,
+  Giftfive,
+  Celebrate,
+  Message,
+  New1,
+  New2,
+  New3,
+  New4,
+  Logo,
+  Navlight,
+  footergreenbulb,
+  footerredbulb,
+  company1,
+  company2,
 };
