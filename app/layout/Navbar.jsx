@@ -36,13 +36,23 @@ function Navbar() {
           className={`flex justify-between lg:mx-24 ${open ? "mx-0" : "mx-8"}`}
         >
           <div className="flex cursor-pointer">
+            <div
+              className="md:visible xs:invisible mr-1 mt-1 lg:my-auto text-white dark:text-white"
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            >
+              {theme === "dark" ? (
+                <FiSun className="w-[20px] h-[20px] " />
+              ) : (
+                <BiMoon className="w-[20px] h-[20px]" />
+              )}
+            </div>
             <Image src={Logo} alt="logo" className="w-[24px] h-[24px]" />
             <p className="md:text-[20px] text-[20px] font-normal text-white dark:text-white">
               Christmas
             </p>
           </div>
           <div className="flex">
-            <div
+            {/* <div
               className="block my-auto md:invisible xs:visible mr-[15px] text-white dark:text-white"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
             >
@@ -51,7 +61,7 @@ function Navbar() {
               ) : (
                 <BiMoon className="w-[20px] h-[20px]" />
               )}
-            </div>
+            </div> */}
 
             <div
               className="cursor-pointer md:invisible xs:visible my-auto text-white dark:text-white"
@@ -110,16 +120,6 @@ function Navbar() {
                   </li>
                 ))}
               </ul>
-              <div
-                className="md:visible xs:invisible lg:my-auto text-white dark:text-white"
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                {theme === "dark" ? (
-                  <FiSun className="w-[20px] h-[20px] " />
-                ) : (
-                  <BiMoon className="w-[20px] h-[20px]" />
-                )}
-              </div>
             </div>
           </div>
         </div>
