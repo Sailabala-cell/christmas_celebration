@@ -25,9 +25,9 @@ function HeroSection() {
               successes.{" "}
             </p>
           </div>
-          <div className="flex sm:justify-center sm:items-center lg:justify-start">
+          <div className="flex justify-center lg:justify-start">
             <div
-              className="rounded-[64px] w-fit h-auto  bg-red-600 px-12 py-5 text-[15px] xs:text-[19px] font-medium
+              className="rounded-[64px] w-fit h-auto text-center bg-red-600 px-12 py-5 text-[15px] xs:text-[19px] font-medium
             text-white mt-10 cursor-pointer"
             >
               Get started

@@ -4,7 +4,7 @@ import { Message } from "../../public/images/index";
 import Image from "next/image";
 function Celebration() {
   return (
-    <div class="flex justify-center mb-10">
+    <div className="flex justify-center mb-10">
       <div
         className=" bg-red-700 sm:w-[600px] flex justify-center lg:flex-row flex-col items-center text-center lg:mx-auto rounded-xl lg:text-start mt-16 lg:xs:mt-20
     lg:mt-10 lg:mb-10"

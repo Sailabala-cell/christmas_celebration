@@ -11,7 +11,7 @@ function Footer() {
       <div className="flex lg:justify-center mx-auto mb-5  lg:mb-[-60px] xs:w-[450px] lg:w-[auto] w-[312px] bg-black dark:bg-orange-950 ">
         <div className="grid lg:grid-cols-4 lg:gap-32 gap-10 grid-flow-row xs:ml-5 lg:ml-0 mt-4">
           <div>
-            <div class="flex mb-6">
+            <div className="flex mb-6">
               <Image src={Logo} alt="logo" className="w-[24px] h-[24px]" />
               <p className="xs:text-[16px] text-[15px] font-normal text-white dark:text-white">
                 Christmas
