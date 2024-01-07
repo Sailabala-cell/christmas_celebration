@@ -21,8 +21,8 @@ function HeroSection() {
           </div>
           <div className="justify-center flex lg:justify-start">
             <p className="text-[13px] sm:text-[20px] font-normal sm:w-[300px] w-[300px] text-text-color mt-5 dark: text-text-color-dark ">
-              Christmas and a new year is about to begin, all good wishes and
-              successes.{" "}
+              Since the new year has already begun, I'm wishing you success and
+              good fortune.{" "}
             </p>
           </div>
           <div className="flex justify-center lg:justify-start">
