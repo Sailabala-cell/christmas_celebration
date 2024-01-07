@@ -29,8 +29,9 @@ function HeroSection() {
             <div
               className="rounded-[64px] w-fit h-auto text-center bg-red-600 px-12 py-5 text-[15px] xs:text-[19px] font-medium
             text-white mt-10 cursor-pointer"
+             
             >
-              Get started
+              <a  href="https://www.forbes.com/sites/tracybrower/2021/12/31/4-reasons-to-make-new-years-resolutions-even-if-you-dont-keep-them/?sh=7f85312b66a1">Get started</a>
             </div>
           </div>
         </div>

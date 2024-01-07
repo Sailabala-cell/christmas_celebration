@@ -31,7 +31,7 @@ function Celebration() {
         className=" bg-red-700 sm:w-[600px] flex justify-center lg:flex-row flex-col items-center text-center lg:mx-auto rounded-xl lg:text-start mt-16 lg:xs:mt-20
     lg:mt-10 lg:mb-10"
       >
-        <div className="my-auto sm:w-[300px]">
+        <div className="my-auto sm:w-[300px]" >
           <div className="justify-center lg:justify-start flex">
             <p className="xs:mx-5 text-[20px] xs:text-[30px] font-semibold xs:w-[220px] w-[200px] leading-right">
               Send Good Wishes

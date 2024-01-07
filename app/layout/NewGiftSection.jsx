@@ -13,7 +13,7 @@ function NewGiftSection() {
       <div className="flex mt-8">
         <ImageCarousel />
       </div>
-      <div className=" justify-center flex mx-auto">
+      <div className=" justify-center flex mx-auto" id="good">
         <p className="xs:mx-5 justify-center text-center flex text-[20px] xs:text-[30px] font-semibold xs:w-[220px]  md:w-full ">
           You may send a nice message to your family & friends.
         </p>

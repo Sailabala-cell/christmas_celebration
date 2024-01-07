@@ -4,9 +4,11 @@ import { Celebrate } from "../../public/images/index";
 import Image from "next/image";
 function Celebration() {
   return (
-    <div className='flex justify-center lg:flex-row flex-col items-center text-center lg:text-start mt-16 lg:xs:mt-20
-    lg:mt-10'>
-      <div className='my-auto sm:w-[400px]'>
+    <div
+      className="flex justify-center lg:flex-row flex-col items-center text-center lg:text-start mt-16 lg:xs:mt-20
+    lg:mt-10"
+    >
+      <div className="my-auto sm:w-[400px]">
         <div className="justify-center lg:justify-start flex">
           <p className="text-[20px] xs:text-[24px] font-semibold xs:w-[220px] w-[200px] leading-right">
             Celebrate with a lot of love
@@ -27,7 +29,7 @@ function Celebration() {
             className="rounded-[64px] w-fit h-auto bg-red-500 px-12 py-4 text-[15px] xs:text-[16px]
             font-medium text-white mt-10 cursor-pointer"
           >
-            Send Good Wishes
+            <a href="#good">Send Good Wishes</a>
           </div>
         </div>
       </div>
